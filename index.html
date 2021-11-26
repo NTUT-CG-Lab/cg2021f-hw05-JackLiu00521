@@ -280,15 +280,15 @@
                             mesh.skeleton.bones[leye_index].rotation.y = THREE.MathUtils.degToRad( value_calib_l );
                         }
                         else if ( i == 39 ) {
-                            let x_min = -20;
-                            let x_max = 20;
+                            let x_min = -15;
+                            let x_max = 15;
 
                             let value_calib = (x_max - x_min) * value + x_min;
                             mesh.skeleton.bones[head_index].rotation.x = THREE.MathUtils.degToRad( value_calib );
                         }
                         else if ( i == 40 ) { 
-                            let y_min = -20;
-                            let y_max = 20;
+                            let y_min = -15;
+                            let y_max = 15;
 
                             let value_calib = (y_max - y_min) * value + y_min;
                             mesh.skeleton.bones[head_index].rotation.y = THREE.MathUtils.degToRad( value_calib );
